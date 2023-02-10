@@ -1,11 +1,125 @@
-#welcome {
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+    background-color:lightblue ;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 62.5%;
+    font-family: 'Signika', sans-serif;
     text-align: center;
 }
-.button {
-    cursor: pointer;
-    display:flex; 
+.container{
+    width: 10vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:80rem;
+    margin:0 auto;
+
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.choice-container{
+    display: block;
+    justify-content: center;
+    /* margin-right: 20px; */
+    padding: 5px;
+    align-items: center;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: 2.4 rem;
+    padding: 2rem 0;
+    width: 30rem;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-block;
+    margin-bottom: 1rem;
+    color:black;
+    border-radius: 5px;
+    background: darkblue;
+    border:solid;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+.btn:hover, .option:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 5px aqua;
+    color:aqua;
+
+
+
+}
+p, #countdown {
+    font-size: 3.3rem;
+}
+.option {
+    width: 50%;
+    background-color:grey ;
+    color: black;
+    justify-content: center;
+    margin-top: 1rem;
+    display: block;
+    cursor:pointer;
+    padding: 10px 24px;
+    text-align: center;
+}
+
+#quiz-name {
+    text-align: center;
+}
+
+
+#timer-display{
+    text-align: right;
+    margin-right: 8rem;
+    margin-top: 8rem ;
+    font-size: 32px;
+    text-align: center;
+    margin-left: 15px;
+}
+.time-left{
+    text-align: center;
+}
+#quiz-question {
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+}
+.hide {
+ display:none;
+}
+#save{
+    font-size: 2.4 rem;
+    padding: 2rem 0;
+    width: 8rem;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:white;
+    border-radius: 5px;
+    background: darkblue;
+    border:solid;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#initials{
+    font-size: 2rem;
+    border: solid;
+    border-color: black;
+
+}
+
+h3{
+    font-size: 28px;
 }

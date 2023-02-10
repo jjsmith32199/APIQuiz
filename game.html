@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="quiz-name">
+        <h1>Coding Quiz</h1>
+        <h1>Good Luck!</h1>
+        <h2 class="score-display">Score:</h2>
+    
+
+    </div>
+    <div id="timer-display">
+            <p class="time-left"></p>
+           
+
+    </div>
+    <div class="question-container" id="question">
+      <h2 id="quiz-question">Question goes here</h2>
+     
+    <div class="choice-container flex-row">
+        <button class="option" id="choice1">A</button>
+        <button class="option" id="choice2">B</button>
+        <button class="option" id="choice3">C</button>
+    </div>
+    </div>
+
+    <section id="quiz-end" class="hide">
+        <h3>Initials:</h3><input id="initials">
+        <button id="save" onclick="alert('Thanks for playing!')">Record Your Score</button>
+        <button type=reset id="redo">Retry?</button>
+        <a id="home" href="index.html" class="hide">Home</button>
+    </section>
+</div>
+
+<script src="./Assets/js/script.js"></script>
+</body>
+</html>
